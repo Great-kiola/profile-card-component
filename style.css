@@ -1,8 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;700&display=swap");
+/* Body and all attributes */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0; 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: hsl(185, 75%, 39%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  height: 30vh;
+}
+
+/* Card styling */
+.topEl {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.imgCard{
+  border-radius: 200px;
+  position: absolute;
+  bottom: 750px;
+  border: 6px solid white;
+}
+
+.topEl h1 {
+  font-size: 20px;
+  margin-top: 60px;
+}
+
+h1{
+  font-size: 20px;
+}
+
+.followCount{
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.imgCard2 {
+  border-radius: 20px 20px 0px 0px;
+}
+
+
+
+span {
+  font-weight: 400;
+  opacity: 20%;
+}
+
+/* Footer Elements */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
