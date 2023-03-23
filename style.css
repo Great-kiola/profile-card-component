@@ -90,6 +90,7 @@ li > p {
   align-items: center;
   font-size: 0.8rem;
   color: hsl(0, 0%, 59%);
+  letter-spacing: 0.2em;
 }
 
 span{
