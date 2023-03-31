@@ -8,12 +8,15 @@
 
 body {
   font-family: "Kumbh Sans", sans-serif;
-  background-color: hsl(185, 75%, 39%);
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   flex-direction: column;
+  background: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+  background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+  background-repeat: no-repeat, no-repeat;
+  background-color: hsl(185deg, 75%, 39%);
 }
 
 main {
@@ -98,5 +101,10 @@ span{
   opacity: 30%;
   font-size: medium;
   font-weight: 400;
+}
+
+ul {
+  text-align: center;
+  
 }
  
